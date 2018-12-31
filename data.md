@@ -2,6 +2,8 @@
 
 ## 1. data
 
+`data`同时具有其它语言中`struct`和`enum`的功能。当只有**一个**值构造器时相当于一个`struct`，当有**多个**值构造器时，所有值构造器构成一个`enum`。
+
 Examples:
 
 ```haskell
